@@ -21,6 +21,4 @@ How to :
 
 If you want this to autostart just add it to cron
 
-![til]([https://github.com/user-attachments/assets/da598a6c-3573-4007-ab38-00e2f8040f6a])
-
-
+<img width="400" height="711" alt="VID_20260605_171555044" src="https://github.com/user-attachments/assets/5d5754f2-d728-4e50-baa1-364a2c22e572" />
