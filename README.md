@@ -12,7 +12,7 @@ How to :
 2) Add integration MQTT
 3) Create a new login for mosquitto - or use the one generated during install.
 4) Log into your kindle with SSH.
-5) paho-mqtt library needs to be installed on your kindle. Your kindle doesnt have pip so you have to install it by copying the files manually.
+5) paho-mqtt library for python3 needs to be installed on your kindle. Your kindle doesnt have pip so you have to install it by copying the files manually.
 6) disable sleep on your kindle if you havent already done that - either through ssh command or there is a way through the kindle itself (sleep interferes with this script)
 7) edit the python script with nano and change your homeasistant IP and mosquitto broker logins
 6) copy the file somewhere to /mnt/us/hass-kkmc - either with nano or use Winscp or other tool.
