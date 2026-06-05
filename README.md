@@ -1,2 +1,21 @@
 # hass-kindle-keyboard-mqtt-client
-A simple python program that allows you to use your old Kindle 3 to control events in HomeAsistant - press of a kindle keyboard button is sent as event over mqtt.
+A simple python program that allows you to use your old Kindle 3 to control events in HomeAsistant - press of a kindle keyboard button is sent as event over mqtt. 
+
+This works as great addition to this project - https://github.com/sibbl/hass-lovelace-kindle-screensaver ; So kindle will show the dashboard and you can use also buttons to control stuff.
+
+Prerequisites : 
+a) Kindle 3 with jailbreak (Kindle 4 or other kindles with buttons will possibly work) - Jailbreak resources here https://kindlemodding.org/jailbreaking/Legacy/K2DXDXGK3-Jailbreak/
+b) Python 3 installed on kindle (https://www.mobileread.com/forums/showthread.php?t=225030)
+
+How to : 
+1) Install Mosquitto for your HomeAsistant if you already dont have them installed.
+2) Add integration MQTT
+3) Create a new login for mosquitto - or use the one generated during install.
+4) Log into your kindle with SSH.
+5) disable sleep on your kindle if you havent already done that - either through ssh command or there is a way through the kindle itself (sleep interferes with this script)
+7) edit the python script with nano and change your homeasistant IP and mosquitto broker logins
+6) copy the file somewhere to /mnt/us/hass-kkmc - either with nano or use Winscp or other tool.
+7) start it with "python3 /mnt/us/hass-kkmc/hass-kindle-mqtt-client0.1.py&
+8) now a new device is created in your homeasistant under integrations/mqtt click on it and you can create automations from there 
+
+If you want this to autostart just add it to cron
