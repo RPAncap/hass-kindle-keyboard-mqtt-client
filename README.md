@@ -20,3 +20,6 @@ How to :
 8) now a new device is created in your homeasistant under integrations/mqtt click on it and you can create automations from there 
 
 If you want this to autostart just add it to cron
+
+<img width="400" height="711" alt="VID_20260605_171555044(1)" src="https://github.com/user-attachments/assets/da598a6c-3573-4007-ab38-00e2f8040f6a" />
+
