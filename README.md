@@ -21,6 +21,6 @@ How to :
 
 If you want this to autostart just add it to cron
 
-![til]([https://github.com/user-attachments/assets/da598a6c-3573-4007-ab38-00e2f8040f6a))
+![til]([https://github.com/user-attachments/assets/da598a6c-3573-4007-ab38-00e2f8040f6a])
 
 
