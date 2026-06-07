@@ -5,11 +5,11 @@ This works as great addition to this project - https://github.com/sibbl/hass-lov
 
 This will likely work on other Kindles that have buttons (such as Kindle 2 or Kindle 4) with slight modifications - I do not have one of those to try - if you do feel free to test and contact me and I can add it here.
 
-Prerequisites : 
+**Prerequisites :** 
 1) Kindle 3 with jailbreak (Kindle 4 or other kindles with buttons will possibly work) - Jailbreak resources here https://kindlemodding.org/jailbreaking/Legacy/K2DXDXGK3-Jailbreak/
 2) Python 3 installed on kindle (https://www.mobileread.com/forums/showthread.php?t=225030)
 
-How to Install : 
+**How to Install : **
 1) Install Mosquitto for your HomeAsistant if you already dont have them installed.
 2) Add integration MQTT
 3) Create a new login for mosquitto - or use the one generated during install.
@@ -23,7 +23,8 @@ How to Install :
 
 If you want this to autostart just add it to cron
 
-Using the kindle to play sounds : 
+**Using the kindle to play sounds : **
+
 For simplicity we are using the native tool aplay that is preinstalled in kindle. It can only play .wav files. Place your .wav files in the same folder and name tham 1.wav 2.wav and so on (by default there is 1-4 but you can edit the configurations at the start of the code and add more or name hovewer you want).
 In integrations / mqtt you will see the Kindle device and when you click it there are the buttons corresponding to your .wav files.
 
