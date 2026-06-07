@@ -24,8 +24,7 @@ This will likely work on other Kindles that have buttons (such as Kindle 2 or Ki
 If you want this to autostart just add it to cron
 
 **Using kindle to play sounds :**
-
-For simplicity we are using the native tool aplay that is preinstalled in kindle. It can only play .wav files. Place your .wav files in the same folder and name tham 1.wav 2.wav and so on (by default there is 1-4 but you can edit the configurations at the start of the code and add more or name hovewer you want).
+Kindle 3 keyboard has speaker you can use to play sounds. For simplicity we are using the native tool aplay that is preinstalled in kindle. It can only play .wav files. Place your .wav files in the same folder and name tham 1.wav 2.wav and so on (by default there is 1-4 but you can edit the configurations at the start of the code and add more or name hovewer you want).
 In integrations / mqtt you will see the Kindle device and when you click it there are the buttons corresponding to your .wav files.
 
 
